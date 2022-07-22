@@ -34,28 +34,40 @@
               <div id="bannerSwiper" class="swiper-container">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div class="banner-cell" id="1">
-                      <img src="./img/guobao.png" alt="">
-                      <div>国宝1</div>
-                    </div>
+                    <a href="./dggTryPlay.shtml?id=1" target="_blank" class="banner-cell" id="1">
+                      <img src="./img/shigua/1/banner.png" alt="">
+                      <div>点石成金</div>
+                    </a>
                   </div>
                   <div class="swiper-slide">
-                    <div class="banner-cell" id="2">
-                      <img src="./img/guobao.png" alt="">
-                      <div>国宝2</div>
-                    </div>
+                    <a href="./dggTryPlay.shtml?id=2" target="_blank" class="banner-cell" id="2">
+                      <img src="./img/shigua/2/banner.png" alt="">
+                      <div>国宝</div>
+                    </a>
                   </div>
                   <div class="swiper-slide">
-                    <div class="banner-cell" id="3">
-                      <img src="./img/guobao.png" alt="">
-                      <div>国宝3</div>
-                    </div>
+                    <a href="./dggTryPlay.shtml?id=3" target="_blank" class="banner-cell" id="3">
+                      <img src="./img/shigua/3/banner.png" alt="">
+                      <div>锦鲤10元</div>
+                    </a>
                   </div>
                   <div class="swiper-slide">
-                    <div class="banner-cell" id="4">
-                      <img src="./img/guobao.png" alt="">
-                      <div>国宝4</div>
-                    </div>
+                    <a href="./dggTryPlay.shtml?id=4" target="_blank" class="banner-cell" id="4">
+                      <img src="./img/shigua/4/banner.png" alt="">
+                      <div>麻辣6</div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="./dggTryPlay.shtml?id=5" target="_blank" class="banner-cell" id="5">
+                      <img src="./img/shigua/5/banner.png" alt="">
+                      <div>十倍幸运</div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="./dggTryPlay.shtml?id=6" target="_blank" class="banner-cell" id="6">
+                      <img src="./img/shigua/6/banner.png" alt="">
+                      <div>中国红20元</div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -70,22 +82,22 @@
               <a href="./onSaleList.shtml" target="_blank">更多 ></a>
             </h3>
             <div class="flexBox onsaleList">
-              <div class="onsalleItem">
+              <a href="./onSaleItem_colum.shtml" target="_blank" class="onsalleItem">
                 <img src="./img/piaomian.png" width="275" height="172" />
-                <p>超级加倍50元</p>
-              </div>
-              <div class="onsalleItem">
+                <p>竖版详情</p>
+              </a>
+              <a href="./onSaleItem_row.shtml" target="_blank" class="onsalleItem">
                 <img src="./img/piaomian.png" width="275" height="172" />
-                <p>超级加倍50元</p>
-              </div>
-              <div class="onsalleItem">
+                <p>横版详情</p>
+              </a>
+              <a href="./onSaleItem_colum.shtml" target="_blank" class="onsalleItem">
                 <img src="./img/piaomian.png" width="275" height="172" />
-                <p>超级加倍50元</p>
-              </div>
-              <div class="onsalleItem">
+                <p>竖版详情</p>
+              </a>
+              <a href="./onSaleItem_row.shtml" target="_blank" class="onsalleItem">
                 <img src="./img/piaomian.png" width="275" height="172" />
-                <p>超级加倍50元</p>
-              </div>
+                <p>横版详情</p>
+              </a>
             </div>
           </div>
         </div>
@@ -94,7 +106,7 @@
             <h2 class="boxTitle tit_red"><a class="tit_left" href='javascript:void(0)'>顶呱刮新闻</a>
               <div class="decor"><span></span><span></span><span></span></div>
             </h2>
-            <!-- 顶呱呱第一条新闻 -->
+            <!-- 第一条新闻 -->
             <div class="boxFirstInfo">
               <img src="./img/dgg_icon.png" width="154" height="98" />
               <div class="firstInfo-right">
@@ -102,37 +114,37 @@
                 <a>[详情]</a>
               </div>
             </div>
-            <!-- 顶呱呱第一条新闻--end -->
+            <!-- 第一条新闻--end -->
             <!-- 新闻开始 -->
             <div class="dltIntro">
               <ul>
                 <li class="flexBox">
-                  <p><a href='http://www.bjlot.com/dlt/New/Content_57135.shtml' target="_blank">吉林彩民独揽1600万头奖
-                      大乐透奖池42.69亿元</a></p>
+                  <p><a href='http://www.bjlot.com/dlt/New/Content_57135.shtml' target="_blank">
+                    吉林彩民独揽1600万头奖 大乐透奖池42.69亿元</a></p>
                 </li>
                 <li class="flexBox">
-                  <p><a href='http://www.bjlot.com/dlt/New/Content_57093.shtml' target="_blank">超级大乐透再爆4注头奖
-                      奖池滚存至42.34亿元</a></p>
+                  <p><a href='http://www.bjlot.com/dlt/New/Content_57093.shtml' target="_blank">
+                    超级大乐透再爆4注头奖 奖池滚存至42.34亿元</a></p>
                 </li>
                 <li class="flexBox">
-                  <p><a href='http://www.bjlot.com/dlt/New/Content_57037.shtml' target="_blank">体彩超级大乐透再爆3注头奖
-                      奖池升至42.36亿元</a></p>
+                  <p><a href='http://www.bjlot.com/dlt/New/Content_57037.shtml' target="_blank">
+                    体彩超级大乐透再爆3注头奖 奖池升至42.36亿元</a></p>
                 </li>
                 <li class="flexBox">
-                  <p><a href='http://www.bjlot.com/dlt/New/Content_56992.shtml' target="_blank">体彩大乐透欢送17注头奖
-                      青海一人擒获3009万元</a></p>
+                  <p><a href='http://www.bjlot.com/dlt/New/Content_56992.shtml' target="_blank">
+                    体彩大乐透欢送17注头奖 青海一人擒获3009万元</a></p>
                 </li>
                 <li class="flexBox">
-                  <p><a href='http://www.bjlot.com/dlt/New/Content_56953.shtml' target="_blank">超级大乐透再爆3注头奖
-                      奖池升至42.91亿元</a></p>
+                  <p><a href='http://www.bjlot.com/dlt/New/Content_56953.shtml' target="_blank">
+                    超级大乐透再爆3注头奖 奖池升至42.91亿元</a></p>
                 </li>
                 <li class="flexBox">
-                  <p><a href='http://www.bjlot.com/dlt/New/Content_56917.shtml' target="_blank">大乐透喜迎16注头奖
-                      云南一站中1808万</a></p>
+                  <p><a href='http://www.bjlot.com/dlt/New/Content_56917.shtml' target="_blank">
+                    大乐透喜迎16注头奖 云南一站中1808万</a></p>
                 </li>
                 <li class="flexBox">
-                  <p><a href='http://www.bjlot.com/dlt/New/Content_56876.shtml' target="_blank">超级大乐透开1注1000万头奖
-                      奖池升至43.51亿元</a></p>
+                  <p><a href='http://www.bjlot.com/dlt/New/Content_56876.shtml' target="_blank">
+                    超级大乐透开1注1000万头奖 奖池升至43.51亿元</a></p>
                 </li>
               </ul>
             </div>

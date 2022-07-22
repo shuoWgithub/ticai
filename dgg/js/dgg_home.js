@@ -2,10 +2,10 @@
   swiperInit();
   videoSwiperInit();
 
-  $(".banner-cell").click(function(e) {
-    let id = $(this).attr("id")
-    window.open('/dgg/onSaleItem-colum.shtml?id=' + id)
-  })
+  // $(".banner-cell").click(function(e) {
+  //   let id = $(this).attr("id")
+  //   window.open('/dgg/onSaleItem-colum.shtml?id=' + id)
+  // })
 });
 
 function swiperInit() {

@@ -39,6 +39,9 @@
 #bannerSwiper .swiper-slide-active,#bannerSwiper .swiper-slide-duplicate-active{
     transform: scale(1.67);
 }
+#bannerSwiper .swiper-slide-active .banner-cell > div,#bannerSwiper .swiper-slide-duplicate-active .banner-cell > div{
+  transform: scale(0.6);
+}
 .banner-cell{
  width: 100%;
  text-align: center;
