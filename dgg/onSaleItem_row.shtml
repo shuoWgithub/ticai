@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta name="keywords"
+    content="彩票,体彩,体育彩票,北京体彩中心官方网站,北京体彩,体彩中心,北京市体育彩票管理中心,七星彩,排列三, 排列3,排列五, 排列5,足彩胜负,足彩进球,足彩半全场,大乐透,超级大乐透,33选7,36选7,快中彩,顶呱刮,单场竞猜,足球单场,足球彩票,足彩赛程,单场赛程,场次调整,开奖公告,体彩数据,公益彩票,健康彩票 ,彩票文化" />
+  <meta name="description" content="北京体彩网是北京市体育彩票管理中心官方网站,提供最新资讯、中奖公告、开奖视频、足彩赛程、单场彩赛程、赛果和实时sp值" />
+  <link href="../css/play.css?v=2022052601" rel="stylesheet" type="text/css" />
+  <link href="../css/Common.css?v=2022052601" rel="stylesheet" type="text/css" />
+  <link href="./css/onSaleItem_row.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="/images_8/favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="/images_8/favicon.ico" />
+  <title>顶刮呱-北京体彩网</title>
+</head>
+
+<body>
+  <!--#include file="/publicHtml/navi_noAd.html" -->
+  <div class="dlt-content">
+    <div class="dlt-box">
+      <!---广告位-->
+      <div class="ad-banner" id="index-banner-16" lazy_src="/AD/AD_16.html"></div>
+      <!--广告位结束-->
+      <div class="breadcrumb">
+        <a href="/index.shtml">首页</a><span>></span>
+        <a href="/dgg/index.shtml">顶呱刮</a><span>></span>
+        <span>在售顶呱刮</span>
+      </div>
+      <div class="dltContBox flexBox">
+        <div class="ContBoxL">
+          <div class="left-content1">
+            <h3 class="title">国宝招财，公益有爱</h3>
+            <div class="content">
+              <div class="front">正面</div>
+              <div class="back">反面</div>
+            </div>
+            <div class="preserve">
+              <img src="./img/flip.png" alt="">
+            </div>
+          </div>
+          <div class="left-content2">
+            <div class="left-content2-left">
+              <div class="name">国宝</div>
+              <div class="price-value">
+                <span>面值：</span><span class="color1">20</span><span>元</span>
+              </div>
+              <div class="price-value">
+                <span>最高奖金：</span><span class="color1">1,000,000</span><span>元</span>
+              </div>
+              <div class="price-value">
+                <span>中奖机会：</span><span class="color1">20</span><span>次</span>
+              </div>
+              <div class="how-play">
+                <h2 class="how-play-title">玩法介绍</h2>
+                <h3 class="how-play-content">刮中奖符号</h3>
+              </div>
+              <div class="how-play-rule">
+                <h2 class="how-play-title">游戏规则</h2>
+                <h3 class="how-play-content">刮开覆盖膜如果出现“国宝”标志即中该标志下方所示的金额；如果出现“顶刮呱“标志即中得该标志下放所示金额的5倍。中奖奖金兼中兼得。</h3>
+              </div>
+            </div>
+            <div class="left-content2-right">
+              <div class="how-play-setting">
+                <h2 class="how-play-title">游级设置</h2>
+                <table width="385" cellspacing="0"  class="table">
+                  <tr>
+                    <th >奖级</th>
+                    <th>奖金额</th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>1,000,000元</td>
+                  </tr>
+                  <tr class="tr_num2">
+                    <td>2</td>
+                    <td>10,000元</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>3,000元</td>
+                  </tr>
+                  <tr class="tr_num2">
+                    <td>4</td>
+                    <td>600元</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>3,000元</td>
+                  </tr>
+                  <tr class="tr_num2">
+                    <td>6</td>
+                    <td>600元</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>3,000元</td>
+                  </tr>
+                  <tr class="tr_num2">
+                    <td>8</td>
+                    <td>600元</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>600元</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <script type="text/javascript" src="../js/dltInsertAd.js?v=2022052301"></script>
+    <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="./js/onSaleItem_row.js"></script>
+  </div>
+  <!--#include file="/publicHtml/copyright.html" -->
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+.dlt-box .dltContBox {
+  margin: 20px 0 90px;
+}
+/* 左边第一个模块 */
+.dlt-box .left1 h3.boxTit1 {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 0 15px 0 18px;
+  background: linear-gradient(0deg,#e22607 0%, #fb4e07 100%);
+  text-align: center;
+}
+.dlt-box .ContBoxR .right1{
+  height: initial;
+}
+.left1 {
+  height: 468px !important;
+}
+.left1 .mn-win {
+  position: relative;
+  height: 430px;
+  background: #eceded;
+}
+#bannerSwiper {
+  width: 580px;
+  height: 430px;
+}
+#bannerSwiper .swiper-slide {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 300ms;
+}
+#bannerSwiper .swiper-slide-active,#bannerSwiper .swiper-slide-duplicate-active{
+    transform: scale(1.67);
+}
+.banner-cell{
+ width: 100%;
+ text-align: center;
+ color: #555555;
+ font-size: 18px;
+}
+.banner-cell img{
+  width: 100%;
+}
+.swiper-button-prev, .swiper-button-next{
+  width: 18px;
+  height: 40px;
+  background: #d7d8d8;
+  border-radius: 2px;
+}
+.swiper-button-prev::after, .swiper-button-next::after{
+  color: #fff;
+  font-size: 12px;
+}
+/* 左边第一个模块 end */
+
+/* 左边第二个模块 */
+.left2{
+  margin-top: 26px;
+}
+.dlt-box .left2 h3.boxTit1 {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 0 15px 0 18px;
+  background-color: #E42907;
+}
+.dlt-box .left2 h3.boxTit1 a {
+  float: right;
+  font-size: 12px;
+  color: #fff;
+}
+.dlt-box .left2 .onsaleList {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 4px 5px 0 5px;
+}
+.dlt-box .left2 .onsaleList .onsalleItem {
+  width: 304px;
+  height: 254px;
+  background: #f2f3f3;
+  border: 1px solid #c2c3c3;
+  border-radius: 15px;
+  margin-top: 13px;
+  margin-left: 11px;
+}
+.onsalleItem img {
+  display: block;
+  margin: 17px auto 24px;
+}
+.onsalleItem p {
+  margin: 0px auto 24px;
+  font-size: 16px;
+  text-align: center;
+  color: #555;
+  font-weight: 400;
+}
+/* 左边第二个模块  end */
+/* 右边第一个模块 */
+h2.boxTitle {
+  margin-top: 0;
+}
+h2.boxTitle .tit_left {
+  padding: 0 0px 0 10px;
+}
+.ContBoxR .right1 .boxFirstInfo {
+  display: flex;
+  -webkit-display: flex;
+  -o-display: flex;
+  align-items: center;
+  height: 98px;
+  margin-top: 19px;
+}
+.right1 .boxFirstInfo .firstInfo-right {
+  margin-left: 12px;
+  width: 173px;
+}
+.right1 .boxFirstInfo .firstInfo-right p {
+  font-size: 14px;
+}
+.right1 .boxFirstInfo .firstInfo-right a {
+  color: #FF2230;
+  float: right;
+}
+.dltIntro ul{
+  padding: 0;
+}
+.dltIntro li {
+  height: 31px;
+  line-height: 31px;
+}
+/* 右边第一个模块  end */
+/* 右边第二个模块 */
+.dlt-box .ContBoxR .right3 {
+  height: auto;
+}
+.dlt-box .ContBoxR .right3 .link-pic2 {
+  margin-top: 26px;
+}
+/* 右边第三个模块 */
+.dlt-box .ContBoxR .right4 {
+  margin-top: 28px;
+  position: relative;
+}
+#videoSwiper {
+  width: 310px;
+}
+#videoSwiper .swiper-slide{
+  text-align: center;
+  color: #555555;
+  font-size: 14px;
+  line-height: 30px;
+}
+.right4 .swiper-button-prev{
+  left: 0;
+}
+.right4 .swiper-button-next{
+  right: 0;
+}
+.video-swiper-view{
+  position: relative;
+}

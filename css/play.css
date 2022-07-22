@@ -1,0 +1,200 @@
+.box .left{
+    width:240px;
+    float:left;
+    margin:5px 0 0 0;
+    overflow:hidden;
+}
+.box .middle{
+    width:470px;
+    float:left;
+    margin:0 10px 0 10px;
+    overflow:hidden;
+}
+.box .right{
+    width:220px;
+    float:left;
+    margin:0;
+    overflow:hidden;
+}
+.movie{
+    border:6px #d3d3d3 solid;
+    padding:1px;
+    background-color:#fff;
+    margin-top:10px;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    list-style:none;
+}
+.dlt-box select::-ms-expand { display: none; }
+.history_h3 h3{
+    font-size:14px;
+    margin:20px 0 10px 0;
+    position:relative;
+    top:10px;
+    left:20px;
+}
+.dlt-box .history_h3{
+    width: 1034px;
+    height: 38px;
+    position: relative;
+    background: linear-gradient(0deg, #E22607, #FB4E07);
+}
+.dlt-box .history_h3 h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    position: absolute;
+    margin: 0;
+}
+.dlt-box .history_h3 .h3Box_sel{
+    position: absolute;
+    right: 18px;
+    top: 7px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 13px;
+    z-index: 10;
+}
+.dlt-box .history_h3 .h3Box_sel select{
+    width: 102px;
+    height: 24px;
+    background: url('/images/arrow-d.png') no-repeat 80px 2px;
+    background-size: 18px 18px;
+    border: 1px solid #e32807;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+.dlt-box .history_h3 .h3Sel1{
+    right: 160px;
+}
+.dlt-box .history_h3 .h3Sel2{
+    width: 110px;
+    line-height: 22px;
+    background: url('/images/arrow-d.png') #fff no-repeat 98px 2px;
+    background-size: 18px 18px;
+    padding: 0 4px;
+    border: 1px solid #e32807;
+    cursor: pointer;
+}
+.dlt-box .history_h3 .h3Sel2 ul{
+    padding: 0;
+    display: none;
+}
+.dlt-box .history_h3 .h3Sel2:hover{
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+}
+.dlt-box .history_h3 .h3Sel2:hover ul{
+    display: block;
+}
+.dlt-box .history_h3 .h3Sel2 ul input{
+    width: 104px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.dlt-box .history_h3 .h3Sel2 .btnRed{
+    border: 1px solid #e01212;
+    border-radius: 4px;
+    background: #e01212;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+.dlt-box .history_h3 .h3Sel2 .u-tips {
+    background: url('/images/icon-tips.png') no-repeat left;
+    background-size: 14px;
+    padding-left: 18px;
+    color: #f92;
+    font-size: 12px;
+    white-space: nowrap;
+    /*display: none;*/
+}
+.dlt-box .history_h3 .hintTxt{
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffda00;
+    line-height: 38px;
+    margin-left: 218px;
+}
+.history{
+    border:1px #d2d2d2 solid;
+    margin:20px 0 10px 0;
+}
+.history td{
+    background-color:#dcdcdc;
+    text-align:center;
+}
+.history th{
+    background-color:#ffde7b;
+    text-align:center;
+}
+.play th{
+    background-color:#fea201;
+}
+.soccer .flash{
+    margin:15px;
+    padding:3px;
+    border:1px #999 solid;
+}
+.dlt-box .history{
+    border: 1px solid #b9cce7;
+    border-collapse: collapse;
+}
+.dlt-box .history td{
+    background-color: #fff;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.dlt-box .history td:last-child{
+    border-right: 0;
+}
+.dlt-box .history #hitnum td{
+    border-bottom: 1px solid #b9cce7;
+}
+.dlt-box .history th{
+    background-color: #cee2ff;
+    color: #0A58A8;
+    border-right: 1px solid #b9cce7;
+    border-bottom: 1px solid #b9cce7;
+    font-weight: 400;
+    font-size: 10px;
+}
+.dlt-box .history .fontbold{
+    font-weight: 700;
+    font-size: 12px;
+}
+.dlt-box .history .blueW{
+    color: #0A58A8;
+}
+.dlt-box .exContent{
+    display: none;
+}
+.dlt-box td.fshow{
+    color: #e62c34;
+}
+.dlt-box td.bshow{
+    background: #FFFCF0;
+    color: #0A58A8;
+}
+.dlt-box .history_h3 .h3Sel2 input::-webkit-input-placeholder { /* WebKit browsers */ 
+    color: #bababa; 
+    font-size:12px;
+}
+.dlt-box .history_h3 .h3Sel2 input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+    color: #bababa; 
+    font-size:12px;
+} 
+.dlt-box .history_h3 .h3Sel2 input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+    color: #bababa; 
+    font-size:12px;
+}
