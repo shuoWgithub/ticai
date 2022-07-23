@@ -52,7 +52,7 @@
             <!-- 底部按钮 -->
             <div class="btn-wrapper">
               <div class="btn">兑奖</div>
-              <div class="btn">再来一次</div>
+              <div class="btn tryAgain" >再来一次</div>
             </div>
             <!-- 翻转按钮 -->
             <div class="preserve">
@@ -62,9 +62,17 @@
             <div class="g-maskZj" style="display: none;">
               <div class="zj">
                 <div class="zj-tip">恭喜您中奖啦！</div>
-                <div class='zj-value'>20元</div>
+                <div class='zj-value' id="zj-value">20元</div>
                 <div class="zj-declare">本游戏为在线模拟试刮体验 不产生真实奖金 中奖概率与真实彩票不同</div>
-                <div class='zj-again' id="tryAgain">再刮一次</div>
+                <div class='zj-again tryAgain'>再刮一次</div>
+              </div>
+            </div>
+            <!-- 未中奖弹层 -->
+            <div class="g-maskWzj" style="display: none;">
+              <div class="wzj">
+                <div class="zj-tip">期待下次幸运</div>
+                <div class="zj-declare">本游戏为在线模拟试刮体验 不产生真实奖金 中奖概率与真实彩票不同</div>
+                <div class='zj-again tryAgain'>再刮一次</div>
               </div>
             </div>
           </div>

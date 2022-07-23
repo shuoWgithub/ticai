@@ -1,4 +1,5 @@
 $(function(){
+  // 图对应的标题
   var titleArr = [
     '点石成金好运随心',
     "国宝招财，公益有爱",
@@ -7,6 +8,20 @@ $(function(){
     "十倍幸运，精彩十倍",
     "“中国红”红遍中国"
   ]
+  // 6个呱呱卡分别对应的中奖结果类型
+  var awardImgCount = [5, 6, 5, 5, 6, 5]
+  // 6个呱呱卡分别对应的中奖奖金
+  var awardMoneys = [
+    [40, 0, 0, 1000, 500],
+    [20, 400, 0, 100, 60, 0],
+    [0, 50, 10, 20, 0, 100],
+    [100, 0, 0, 50, 300]
+    [60, 0, 0, 50, 20, 100],
+    [20, 500, 0, 0, 50]
+  ]
+  var awardMoney = 0
+
+  // 右侧对应的信息
   var rightContent = [
     {
       name: "点石成金",
@@ -178,7 +193,7 @@ $(function(){
     }
   ]
   var params = window.location.search || ''
-  var id = 0
+  var id = 1
   if (params.indexOf('?') > -1) {
     let paramArr = []
     params = params.slice(1)
@@ -198,6 +213,7 @@ $(function(){
   $('#imgB').attr('src', "./img/shigua/"+ id + "/2.png")
   $('#imgC').attr('src', "./img/shigua/"+ id + "/3.png")
   $('#imgD').attr('src', "./img/shigua/"+ id + "/4.png")
+  getAwardOne()
   if (id == 1) {
     $('.content').css('width', "390px")
     $('.u-conImg').css('height', '309px')
@@ -267,13 +283,20 @@ $(function(){
       'height': '424px'
     })
   }
-
-  $('#finally').attr('src', "./img/shigua/"+ id + "/2-1.png")
+  
   $('#redux').eraser({
    size: 40,
    completeRatio: 0.8,
    completeFunction: function () {
-    $(".g-maskZj").show(); 
+    try{
+      $("#redux").eraser("clear");
+    }catch(e){}
+    if(awardMoney > 0){
+      $('#zj-value').html(awardMoney + '元');
+      $('.g-maskZj').show();
+    }else{
+      $('.g-maskWzj').show();
+    }
    }
   });
 
@@ -326,9 +349,21 @@ $(function(){
   })
 
   // 再来一次
-  $('#tryAgain').click(tryAgain)
-  function tryAgain() {
+  $('.tryAgain').click(function () {
+    $("#redux").eraser("reset");
     $(".g-maskWzj").hide();
-    $(".g-maskZj").hide(); 
+    $(".g-maskZj").hide();
+    getAwardOne()
+  })
+
+  // 随机生成一个中奖结果
+  function getAwardOne () {
+    let a = Math.random();
+    let b = a * awardImgCount[id - 1]
+    let c = Math.floor(b) //向下取整
+    console.log(c)
+    awardMoney = awardMoneys[id - 1][c]
+    console.log(awardMoney)
+    $('#finally').attr('src', "./img/shigua/" + id + "/2-" + c + ".png")
   }
 });
