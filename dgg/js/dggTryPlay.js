@@ -15,7 +15,7 @@ $(function(){
     [40, 0, 0, 1000, 500],
     [20, 400, 0, 100, 60, 0],
     [0, 50, 10, 20, 0, 100],
-    [100, 0, 0, 50, 300]
+    [100, 0, 0, 50, 300],
     [60, 0, 0, 50, 20, 100],
     [20, 500, 0, 0, 50]
   ]
@@ -361,9 +361,7 @@ $(function(){
     let a = Math.random();
     let b = a * awardImgCount[id - 1]
     let c = Math.floor(b) //向下取整
-    console.log(c)
     awardMoney = awardMoneys[id - 1][c]
-    console.log(awardMoney)
     $('#finally').attr('src', "./img/shigua/" + id + "/2-" + c + ".png")
   }
 });

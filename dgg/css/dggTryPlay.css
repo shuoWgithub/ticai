@@ -103,7 +103,8 @@
   z-index: -1
 }
 .cur {
-  cursor: url('../img/dgg_icon.png'), auto !important;
+  cursor: url('https://static.sporttery.cn/res_1_0/tcw/images/dgg/pointer.cur'), auto !important;
+  /* cursor: url('../img/dgg_icon.png'), auto !important; */
 }
 .left-content1 .back {
   transform: rotateY(180deg);
