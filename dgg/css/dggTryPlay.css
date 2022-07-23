@@ -16,17 +16,18 @@
   justify-content: flex-start !important;
 }
 .dltContBox .ContBoxL {
-  width: 542px !important;
+  /* width: 497px !important; */
 }
 .dltContBox .ContBoxL .left-content1 {
-  width: 497px;
-  height: 952px;
+  /* width: 497px;
+  height: 952px; */
   background: #f2f3f3;
   border: 1px solid #c2c3c3;
   border-radius: 15px;
-  margin-left: 35px;
+  /* margin-left: 35px; */
   box-sizing: border-box;
   position: relative;
+  padding-bottom: 28px;
 }
 .left-content1 .title {
   font-size: 24px;
@@ -40,24 +41,33 @@
   text-align: center;
 }
 .left-content1 .content {
-  width: 419px;
-  height: 809px;
+  width: 390px;
+  height: 780px;
+  border: 8px solid #fff;
+  /* box-sizing: border-box; */
   position: relative;
   padding: 0;
 }
 .left-content1 .front, .left-content1 .back {
-  width: 100%;
+  /* width: 390px; */
   height: 100%;
-  position: absolute;
-  left: 0;
+  position: relative;
+  left: 0px;
   top: 0;
   transform-style: preserve-3d;
   transition: 1s;
   backface-visibility: hidden;
 }
+.left-content1 .back {
+  position: absolute;
+}
 .left-content1 .front {
   z-index: 2;
   transform: rotateY(0deg);
+}
+.back-img {
+  width: 100%;
+  height: auto;
 }
 .u-headImg {
   float: left;
@@ -77,7 +87,7 @@
 }
 .u-restImg {
   width: 100%;
-  height: auto;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -85,15 +95,15 @@
 }
 .u-restImg1 {
   display: block;
-  width: 384px;
-  height: auto;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
-  left: 9px;
+  left: 0px;
   z-index: -1
 }
 .cur {
-  cursor: url('./img/dgg_icon.png'), auto;
+  cursor: url('../img/dgg_icon.png'), auto !important;
 }
 .left-content1 .back {
   transform: rotateY(180deg);
@@ -139,7 +149,8 @@
 }
 
 .ContBoxR {
-  width: 447px !important;
+  flex: auto;
+  /* width: 447px !important; */
   margin-left: 64px;
 }
 .right-content1 {
@@ -212,4 +223,83 @@
 }
 .tr_num2 {
   background: #efefef;
+}
+.declare {
+  display: flex;
+  font-size: 14px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #f74607;
+  line-height: 18px;
+  margin-top: 26px;
+}
+.declare > div:first-child {
+  width: 90px;
+}
+
+
+
+/* 中奖弹层 */
+.g-maskZj {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.g-maskZj .zj {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 318px;
+  height: 283px;
+  opacity: 0.9;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 4px 6px 11px 1px rgba(31,29,29,0.44); 
+}
+.zj-tip {
+  font-size: 24px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+  font-weight: 700;
+  text-align: center;
+  color: #8e3617;
+  line-height: 36px;
+  margin-top: 24px;
+}
+.zj-value {
+  font-size: 40px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+  font-weight: 700;
+  text-align: center;
+  color: #f74607;
+  line-height: 36px;
+  margin-top: 12px;
+}
+.zj-declare {
+  width: 176px;
+  font-size: 14px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  line-height: 18px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+.zj-again {
+  width: 150px;
+  height: 42px;
+  line-height: 42px;
+  background: #f74607;
+  border-radius: 21px;
+  margin: 0 auto;
+  margin-top: 26px;
+  text-align: center;
+  color: #f8e6d1;
+  font-size: 18px;
+  font-weight: 700;
 }
