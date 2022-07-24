@@ -164,6 +164,15 @@ h2.boxTitle .tit_left {
   font-size: 14px;
   line-height: 30px;
 }
+#videoSwiper .swiper-item {
+  position: relative;
+}
+#videoSwiper .swiper-play-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+ }
 .right4 .swiper-button-prev{
   left: 0;
 }

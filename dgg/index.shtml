@@ -165,14 +165,16 @@
               <div id="videoSwiper" class="swiper-container">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div>
-                      <img src="./img/video_cover.png" alt="">
+                    <div class="swiper-item">
+                      <img width="310" height="208" src="./img/piaomian.png" alt="">
+                      <img class="swiper-play-btn" width="52" height="52" src="./img/play.png" />
                       <div>11小张失踪，宝石之王竟是关键线索！</div>
                     </div>
                   </div>
                   <div class="swiper-slide">
-                    <div>
-                      <img src="./img/video_cover.png" alt="">
+                    <div class="swiper-item">
+                      <img width="310" height="208" src="./img/piaomian.png" alt="">
+                      <img class="swiper-play-btn" width="52" height="52" src="./img/play.png" />
                       <div>22小张失踪，宝石之王竟是关键线索！</div>
                     </div>
                   </div>
