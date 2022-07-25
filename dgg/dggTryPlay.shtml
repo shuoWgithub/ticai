@@ -51,7 +51,7 @@
             </div>
             <!-- 底部按钮 -->
             <div class="btn-wrapper">
-              <div class="btn">兑奖</div>
+              <div class="btn cash">兑奖</div>
               <div class="btn tryAgain" >再来一次</div>
             </div>
             <!-- 翻转按钮 -->

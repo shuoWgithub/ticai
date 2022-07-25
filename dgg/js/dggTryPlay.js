@@ -355,6 +355,10 @@ $(function(){
     $(".g-maskZj").hide();
     getAwardOne()
   })
+  // 兑奖
+  $('.cash').click(function () {
+    $("#redux").eraser("clear");
+  })
 
   // 随机生成一个中奖结果
   function getAwardOne () {

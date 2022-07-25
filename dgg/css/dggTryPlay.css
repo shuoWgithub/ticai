@@ -144,9 +144,11 @@
   color: #f8e6d1;
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
 }
 .btn-wrapper .btn:nth-child(2) {
   margin-left: 40px;
+  cursor: pointer;
 }
 
 .ContBoxR {
