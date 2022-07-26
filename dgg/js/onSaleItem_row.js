@@ -311,13 +311,13 @@ if (result.faceValue) {
     + '</div>')
 }
 // 套票张数
-if (result.ticketNumber) {
-  $('#award').append('<div class="price-value">'
-    + '<span>套票张数：</span>'
-    + '<span class="color1">' + result.ticketNumber + '</span>'
-    + '<span>张</span>'
-    + '</div>')
-}
+// if (result.ticketNumber) {
+//   $('#award').append('<div class="price-value">'
+//     + '<span>套票张数：</span>'
+//     + '<span class="color1">' + result.ticketNumber + '</span>'
+//     + '<span>张</span>'
+//     + '</div>')
+// }
 // 最高奖金
 if (result.maxAward) {
   $('#award').append('<div class="price-value">'

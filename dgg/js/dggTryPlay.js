@@ -308,6 +308,7 @@ $(function(){
   if (awardArr.length) {
     for(var awardIndex = 0; awardIndex < awardArr.length; awardIndex++) {
       var awardObj = awardArr[awardIndex]
+      if(awardObj.title == '套票张数') continue
       $('#award').append('<div class="price-value">'
         + '<span>' + awardObj.title + '：</span>'
         + '<span class="color1">' + awardObj.value + '</span>'
