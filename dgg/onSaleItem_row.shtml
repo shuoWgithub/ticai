@@ -32,13 +32,11 @@
       <div class="dltContBox flexBox">
         <div class="ContBoxL">
           <div class="left-content1">
-            <h3 class="title">国宝招财，公益有爱</h3>
+            <h3 class="title"></h3>
             <div class="content">
               <div class="front">
-                <img src="./img/test/row1.png" alt="">
               </div>
               <div class="back">
-                <img src="./img/test/row2.png" alt="">
               </div>
             </div>
             <div class="preserve">
@@ -47,23 +45,15 @@
           </div>
           <div class="left-content2">
             <div class="left-content2-left">
-              <div class="name">国宝</div>
-              <div class="price-value">
-                <span>面值：</span><span class="color1">20</span><span>元</span>
-              </div>
-              <div class="price-value">
-                <span>最高奖金：</span><span class="color1">1,000,000</span><span>元</span>
-              </div>
-              <div class="price-value">
-                <span>中奖机会：</span><span class="color1">20</span><span>次</span>
-              </div>
+              <div class="name"></div>
+              <div id="award"></div>
               <div class="how-play">
                 <h2 class="how-play-title">玩法介绍</h2>
-                <h3 class="how-play-content">刮中奖符号</h3>
+                <h3 class="how-play-content"></h3>
               </div>
               <div class="how-play-rule">
                 <h2 class="how-play-title">游戏规则</h2>
-                <h3 class="how-play-content">刮开覆盖膜如果出现“国宝”标志即中该标志下方所示的金额；如果出现“顶刮呱“标志即中得该标志下放所示金额的5倍。中奖奖金兼中兼得。</h3>
+                <h3 class="how-play-content"></h3>
               </div>
             </div>
             <div class="left-content2-right">
@@ -73,42 +63,6 @@
                   <tr>
                     <th >奖级</th>
                     <th>奖金额</th>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>1,000,000元</td>
-                  </tr>
-                  <tr class="tr_num2">
-                    <td>2</td>
-                    <td>10,000元</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>3,000元</td>
-                  </tr>
-                  <tr class="tr_num2">
-                    <td>4</td>
-                    <td>600元</td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td>3,000元</td>
-                  </tr>
-                  <tr class="tr_num2">
-                    <td>6</td>
-                    <td>600元</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td>3,000元</td>
-                  </tr>
-                  <tr class="tr_num2">
-                    <td>8</td>
-                    <td>600元</td>
-                  </tr>
-                  <tr>
-                    <td>9</td>
-                    <td>600元</td>
                   </tr>
                 </table>
               </div>

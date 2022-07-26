@@ -67,6 +67,7 @@
   border-radius: 15px;
   margin-bottom: 26px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .sale-list .sale-item:nth-child(4n){
