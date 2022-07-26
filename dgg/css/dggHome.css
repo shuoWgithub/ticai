@@ -39,17 +39,36 @@
 #bannerSwiper .swiper-slide-active,#bannerSwiper .swiper-slide-duplicate-active{
     transform: scale(1.67);
 }
-#bannerSwiper .swiper-slide-active .banner-cell > div,#bannerSwiper .swiper-slide-duplicate-active .banner-cell > div{
+#bannerSwiper .swiper-slide-active .banner-cell > .banner-cell-title ,#bannerSwiper .swiper-slide-duplicate-active .banner-cell > .banner-cell-title{
   transform: scale(0.6);
+}
+.swiper-slide-active .banner-cell > .banner-cell-btn {
+  transform: scale(0.95);
 }
 .banner-cell{
  width: 100%;
  text-align: center;
  color: #555555;
  font-size: 18px;
+ position: relative;
 }
 .banner-cell img{
   width: 100%;
+}
+.banner-cell .banner-cell-btn {
+  /* width: 105px; */
+  padding: 0 17px;
+  height: 42px;
+  opacity: 0.7;
+  background: #1d1412;
+  border-radius: 21px;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  color: #fff;
+  text-align: center;
+  line-height: 42px;
+  font-size: 18px;
 }
 .swiper-button-prev, .swiper-button-next{
   width: 18px;
@@ -134,6 +153,7 @@ h2.boxTitle .tit_left {
 .right1 .boxFirstInfo .firstInfo-right a {
   color: #FF2230;
   float: right;
+  cursor: pointer;
 }
 .dltIntro ul{
   padding: 0;
@@ -166,6 +186,7 @@ h2.boxTitle .tit_left {
 }
 #videoSwiper .swiper-item {
   position: relative;
+  cursor: pointer;
 }
 #videoSwiper .swiper-play-btn{
   position: absolute;

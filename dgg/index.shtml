@@ -36,37 +36,43 @@
                   <div class="swiper-slide">
                     <a href="./dggTryPlay.shtml?id=1" target="_blank" class="banner-cell" id="1">
                       <img src="./img/shigua/1/banner.png" alt="">
-                      <div>点石成金</div>
+                      <div class="banner-cell-title">点石成金</div>
+                      <div class="banner-cell-btn">点击试刮</div>
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="./dggTryPlay.shtml?id=2" target="_blank" class="banner-cell" id="2">
                       <img src="./img/shigua/2/banner.png" alt="">
-                      <div>国宝</div>
+                      <div class="banner-cell-title">国宝</div>
+                      <div class="banner-cell-btn">点击试刮</div>
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="./dggTryPlay.shtml?id=3" target="_blank" class="banner-cell" id="3">
                       <img src="./img/shigua/3/banner.png" alt="">
-                      <div>锦鲤10元</div>
+                      <div class="banner-cell-title">锦鲤10元</div>
+                      <div class="banner-cell-btn">点击试刮</div>
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="./dggTryPlay.shtml?id=4" target="_blank" class="banner-cell" id="4">
                       <img src="./img/shigua/4/banner.png" alt="">
-                      <div>麻辣6</div>
+                      <div class="banner-cell-title">麻辣6</div>
+                      <div class="banner-cell-btn">点击试刮</div>
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="./dggTryPlay.shtml?id=5" target="_blank" class="banner-cell" id="5">
                       <img src="./img/shigua/5/banner.png" alt="">
-                      <div>十倍幸运</div>
+                      <div class="banner-cell-title">十倍幸运</div>
+                      <div class="banner-cell-btn">点击试刮</div>
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="./dggTryPlay.shtml?id=6" target="_blank" class="banner-cell" id="6">
                       <img src="./img/shigua/6/banner.png" alt="">
-                      <div>中国红20元</div>
+                      <div class="banner-cell-title">中国红20元</div>
+                      <div class="banner-cell-btn">点击试刮</div>
                     </a>
                   </div>
                 </div>
@@ -176,6 +182,13 @@
                       <img width="310" height="208" src="./img/piaomian.png" alt="">
                       <img class="swiper-play-btn" width="52" height="52" src="./img/play.png" />
                       <div>22小张失踪，宝石之王竟是关键线索！</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-item">
+                      <img width="310" height="208" src="./img/piaomian.png" alt="">
+                      <img class="swiper-play-btn" width="52" height="52" src="./img/play.png" />
+                      <div>33小张失踪，宝石之王竟是关键线索！</div>
                     </div>
                   </div>
                 </div>

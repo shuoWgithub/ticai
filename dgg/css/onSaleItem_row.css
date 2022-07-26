@@ -88,9 +88,11 @@
   top: 50%;
   right: -11px;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 .left-content1 .preserve img{
   width: 100%;
+  cursor: pointer;
 }
 .left-content2 {
   display: flex;

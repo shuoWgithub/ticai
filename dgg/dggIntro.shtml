@@ -23,6 +23,13 @@
     <!---广告位-->
     <div class="ad-banner" id="index-banner-16" lazy_src="/AD/AD_16.html"></div>
     <!--广告位结束-->
+    <!-- 面包屑 -->
+    <div class="breadcrumb">
+      <a href="/index.shtml">首页</a><span>></span>
+      <a href="/dgg/index.shtml">顶呱刮</a><span>></span>
+      <span>票面介绍</span>
+    </div>
+    <!-- 面包屑结束 -->
     <div class="dltContBox flexBox">
       <div class="ContBoxL">
         <div class="intro-bg">

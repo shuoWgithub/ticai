@@ -1,3 +1,20 @@
+.dlt-box .dltContBox {
+  margin: 20px 15px;
+  justify-content: space-between;
+}
+.dlt-box .dltContBox {
+  width: 100% !important;
+}
+.breadcrumb{
+  font-size: 11px;
+  color: #000000;
+}
+.breadcrumb a{
+  color: #000000;
+}
+.breadcrumb span{
+  padding: 0 5px;
+}
 .intro-bg {
   width: 1005px;
   margin: 0 auto;

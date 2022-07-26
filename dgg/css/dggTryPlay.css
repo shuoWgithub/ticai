@@ -125,9 +125,11 @@
   top: 50%;
   right: -11px;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 .left-content1 .preserve img{
   width: 100%;
+  cursor: pointer;
 }
 .btn-wrapper {
   display: flex;
@@ -317,4 +319,5 @@
   color: #f8e6d1;
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
 }
