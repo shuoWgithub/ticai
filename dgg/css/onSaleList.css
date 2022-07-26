@@ -72,6 +72,11 @@
 .sale-list .sale-item:nth-child(4n){
   margin-right:0;
 }
+.sale-list .sale-item .sale-item-img {
+  width: 210px;
+  height: 132px;
+  background-size: cover !important;
+}
 .sale-list .sale-item .multiple {
   font-size: 14px;
   font-family: Microsoft YaHei, Microsoft YaHei-Regular;
@@ -99,3 +104,47 @@
   margin-left: 10px;
   padding-top: 10px;
 }
+
+
+.m-page {
+  display: table;
+  content: "";
+  text-align: center;
+  margin: 4px auto 10px;
+  white-space: nowrap;
+}
+.m-pager {
+  -webkit-user-select: none;
+  list-style: none;
+  font-size: 12px;
+}
+.m-pager .number {
+  min-width: 30px;
+  height: 30px;
+  line-height: 28px;
+  color: #666;
+  margin: 0 6px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  float: left;
+  cursor: pointer;
+}
+.u-pad10 {
+  padding: 0 10px;
+}
+
+.m-pager .number:hover, .m-pager .active {
+  border: 1px solid #ab0101;
+  background: #d20001;
+  color: #fff;
+}
+
+.m-pager .no, .m-pager .no:hover {
+  color: #999;
+  background: #fff;
+  border: 1px solid #ececec;
+  cursor: default;
+}
+
+
