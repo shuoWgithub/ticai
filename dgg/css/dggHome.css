@@ -203,3 +203,11 @@ h2.boxTitle .tit_left {
 .video-swiper-view{
   position: relative;
 }
+.more{
+  color: #1d1412;
+  position: absolute;
+  color: #555555;
+  font-size: 12px;
+  top: 0;
+  right: 0;
+}

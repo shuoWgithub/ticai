@@ -111,13 +111,14 @@
           <div class="right1">
             <h2 class="boxTitle tit_red"><a class="tit_left" href='javascript:void(0)'>顶呱刮新闻</a>
               <div class="decor"><span></span><span></span><span></span></div>
+              <a class="more" href="http://www.bjlot.com/dlt/New/Content_57135.shtml" target="_blank">更多 ></a>
             </h2>
             <!-- 第一条新闻 -->
             <div class="boxFirstInfo">
               <img src="./img/dgg_icon.png" width="154" height="98" />
               <div class="firstInfo-right">
                 <p>“超级加倍有礼，乐享百万惊喜”即开票回馈</p>
-                <a>[详情]</a>
+                <a  href="http://www.bjlot.com/dlt/New/Content_57135.shtml" target="_blank">[详情]</a>
               </div>
             </div>
             <!-- 第一条新闻--end -->
@@ -139,6 +140,18 @@
                 <li class="flexBox">
                   <p><a href='http://www.bjlot.com/dlt/New/Content_56992.shtml' target="_blank">
                     体彩大乐透欢送17注头奖 青海一人擒获3009万元</a></p>
+                </li>
+                <li class="flexBox">
+                  <p><a href='http://www.bjlot.com/dlt/New/Content_56953.shtml' target="_blank">
+                    超级大乐透再爆3注头奖 奖池升至42.91亿元</a></p>
+                </li>
+                <li class="flexBox">
+                  <p><a href='http://www.bjlot.com/dlt/New/Content_56917.shtml' target="_blank">
+                    大乐透喜迎16注头奖 云南一站中1808万</a></p>
+                </li>
+                <li class="flexBox">
+                  <p><a href='http://www.bjlot.com/dlt/New/Content_56876.shtml' target="_blank">
+                    超级大乐透开1注1000万头奖 奖池升至43.51亿元</a></p>
                 </li>
                 <li class="flexBox">
                   <p><a href='http://www.bjlot.com/dlt/New/Content_56953.shtml' target="_blank">
@@ -181,14 +194,14 @@
                     <div class="swiper-item">
                       <img width="310" height="208" src="./img/piaomian.png" alt="">
                       <img class="swiper-play-btn" width="52" height="52" src="./img/play.png" />
-                      <div>22小张失踪，宝石之王竟是关键线索！</div>
+                      <div>22竟是关键线索！</div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="swiper-item">
                       <img width="310" height="208" src="./img/piaomian.png" alt="">
                       <img class="swiper-play-btn" width="52" height="52" src="./img/play.png" />
-                      <div>33小张失踪，宝石之王竟是关键线索！</div>
+                      <div>33线索！</div>
                     </div>
                   </div>
                 </div>

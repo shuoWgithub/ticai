@@ -21,6 +21,7 @@
 .dltContBox .ContBoxL .left-content1 {
   /* width: 497px;
   height: 952px; */
+  height: 100%;
   background: #f2f3f3;
   border: 1px solid #c2c3c3;
   border-radius: 15px;
@@ -28,6 +29,10 @@
   box-sizing: border-box;
   position: relative;
   padding-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .left-content1 .title {
   font-size: 24px;
@@ -36,15 +41,16 @@
   text-align: left;
   color: #666666;
   line-height: 24px;
-  padding: 16px 0 10px;
+  padding: 16px 0 16px;
   letter-spacing: 1px;
   text-align: center;
 }
 .left-content1 .content {
   width: 390px;
   height: 780px;
-  border: 8px solid #fff;
+  /* border: 8px solid #fff; */
   /* box-sizing: border-box; */
+  background: rgba(0,0,0,0);
   position: relative;
   padding: 0;
 }
@@ -135,6 +141,8 @@
   display: flex;
   justify-content: center;
   margin-top: 6px;
+  width: 100%;
+  padding-top: 20px;
 }
 .btn-wrapper .btn {
   width: 150px;

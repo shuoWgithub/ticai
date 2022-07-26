@@ -8,101 +8,121 @@ $(function(){
       imgUrl: "./img/cover/1.png",
       value: 10,
       max: "25万",
+      name: '十倍幸运'
     },
     {
       imgUrl: "./img/cover/2.png",
       value: 20,
       max: "100万",
+      name: '国宝'
     },
     {
       imgUrl: "./img/cover/3.png",
       value: 20,
       max: "100万",
+      name: '好彩头'
     },
     {
       imgUrl: "./img/cover/4.png",
       value: 20,
       max: "100万",
+      name: '点石成金'
     },
     {
       imgUrl: "./img/cover/5.png",
       value: 10,
       max: "25万",
+      name: '中国红10元'
     },
     {
       imgUrl: "./img/cover/6.png",
       value: 20,
       max: "100万",
+      name: '大熊猫'
     },
     {
       imgUrl: "./img/cover/7.png",
       value: 20,
       max: "100万",
+      name: '五虎将'
     },
     {
       imgUrl: "./img/cover/8.png",
       value: 30,
       max: "100万",
+      name: '大吉大利'
     },
     {
       imgUrl: "./img/cover/9.png",
       value: 50,
       max: "100万",
+      name: '中国龙'
     },
     {
       imgUrl: "./img/cover/10.png",
       value: 20,
       max: "100万",
+      name: '中国红20元'
     },
     {
       imgUrl: "./img/cover/11.png",
       value: 5,
       max: "10万",
+      name: '麻辣6'
     },
     {
       imgUrl: "./img/cover/12.png",
       value: 10,
       max: "100万",
+      name: '锦鲤10元'
     },
     {
       imgUrl: "./img/cover/13.png",
       value: 2,
       max: "1.5万",
+      name: '太空寻宝'
     },
     {
       imgUrl: "./img/cover/14.png",
       value: 10,
       max: "25万",
+      name: '绿翡翠9'
     },
     {
       imgUrl: "./img/cover/15.png",
       value: 5,
       max: "10万",
+      name: '中国红5元'
     },
     {
       imgUrl: "./img/cover/16.png",
       value: 20,
       max: "100万",
+      name: '7'
     },
     {
       imgUrl: "./img/cover/17.png",
       value: 10,
       max: "30万",
+      name: '出7致胜'
     },
     {
       imgUrl: "./img/cover/18.png",
       value: 10,
       max: "25万",
+      name: '通吃'
     },
     {
       imgUrl: "./img/cover/19.png",
       value: 10,
       max: "88万",
+      name: '红包来啦'
     },
     {
       imgUrl: "./img/cover/20.png",
       value: 20,
       max: "100万",
+      name: '爱赢爱冰雪'
     },
   ];
 
@@ -217,7 +237,7 @@ $(function(){
             '<div class="sale-item-img" style="background: url(' +
             array[j].imgUrl +
             ') no-repeat;"></div>' +
-            '<div class="multiple">超级加倍50元</div>' +
+            '<div class="multiple">'+ array[j].name + '</div>' +
             '<div class="sale-item-bottom">' +
             '<div class="first-price">面值：' +
             array[j].value +
