@@ -1,6 +1,8 @@
 $(function(){
   var curPage = 0
-  var pageSize = 2
+  var pageSize = 16
+  var renderList = [];
+  var length = 0
   var allList = [
     {
       imgUrl: "./img/cover/1.png",
@@ -118,16 +120,28 @@ $(function(){
     var value = e.currentTarget.dataset.value;
     list = filterArray(allList, value)
     render(list);
+    pageNation(length);
   });
 
   // 点击切页
   $('.number').click(function () {
     $(this).addClass("active");
     $(this).siblings("li").removeClass("active");
-    curPage = $(this).text() - 1;
-    console.log(curPage);
+    if ($(this).text() == '...') {
+      return
+    } else if ($(this).text() == "上一页") {
+      curPage = curPage - 1;      
+    } else if ($(this).text() == "下一页") {
+      curPage = curPage + 1;
+    } else  {
+      curPage = $(this).text() - 1;
+    }
+    $("#list").empty();
+    showCurList();
     pageNation(length);
   })
+
+
   // 筛选
   function filterArray(list, value) {
     var temporaryList = []
@@ -140,17 +154,56 @@ $(function(){
         temporaryList.push(list[k]);
       }
     }
+
     return temporaryList;
   }
 
   // 渲染
   function render(list) {
-    var renderList = [];
-    var length = Math.ceil(list.length / pageSize); // 向上取整
+    renderList = []
+    length = Math.ceil(list.length / pageSize); // 向上取整
+    console.log(length)
     for (var i = 0; i < length; i++) {
       var curList = list.slice(i * pageSize, i * pageSize + pageSize);
       renderList.push(curList);
     }
+    showCurList()
+    pageNation(length);
+  }
+
+  // 分页器
+  function pageNation(length) {
+    var pageHtml = '<ul class="m-pager">';
+    if (curPage != 0) {
+      pageHtml += '<li class="number u-pad10 ' +
+        (curPage == 0 ? "no" : "") +
+        ')">上一页</li> ';
+    }
+    for (var p = 0; p < length; p++) {
+      var page = p + 1
+      pageHtml +=
+        '<li class="number ' +
+        (p == curPage ? "active" : "") + '"'
+        + '>' 
+        + page
+        '</li>';
+      if (length > 6 && p == 5) {
+        pageHtml += '<li class="number u-pad10">...</li>';
+      }
+    }
+
+    if ((curPage + 1) != length) {
+      pageHtml +=
+        '<li class="number u-pad10 ' +
+        (curPage == length - 1 ? "no" : "") +
+        '">下一页</li>';
+    }
+    
+    pageHtml += "</ul>";
+    $("#mPage").html(pageHtml);
+  }
+
+  function showCurList() {
     if (
       renderList.length > 0 &&
       renderList[curPage] &&
@@ -178,42 +231,7 @@ $(function(){
       }
       $("#list").html(a);
     } else {
-
     }
-
-    pageNation(length);
-  }
-
-  // 分页器
-  function pageNation(length) {
-    var pageHtml = '<ul class="m-pager">';
-    if (curPage != 0) {
-      pageHtml += '<li class="number u-pad10 ' +
-        (curPage == 0 ? "no" : "") +
-        ')">&nbsp;上一页</li> ';
-    }
-    for (var p = 0; p < length; p++) {
-      var page = p + 1
-      pageHtml +=
-        '<li class="number ' +
-        (p == curPage ? "active" : "") + '"'
-        + '>' 
-        + page
-        '</li>';
-      if (length > 6 && p == 5) {
-        pageHtml += '<li class="number u-pad10">...&nbsp;</li>';
-      }
-    }
-
-    if ((curPage + 1) != length) {
-      pageHtml +=
-        '<li class="number u-pad10 ' +
-        (curPage == length - 1 ? "no" : "") +
-        '">下一页&nbsp;</li>';
-    }
-    
-    pageHtml += "</ul>";
-    $("#mPage").html(pageHtml);
   }
   
 })
