@@ -20,6 +20,7 @@
 }
 .dltContBox .ContBoxL .left-content1 {
   width: 497px;
+  height: 100%;
   background: #f2f3f3;
   border: 1px solid #c2c3c3;
   border-radius: 15px;
@@ -35,7 +36,7 @@
   text-align: left;
   color: #666666;
   line-height: 24px;
-  padding: 16px 0 10px;
+  padding: 16px 0 20px;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -134,7 +135,7 @@
   color: #F74607 !important;
 }
 .how-play {
-  margin-top: 54px;
+  margin-top: 34px;
 }
 .how-play-title, .how-play-content {
   width: 365px;

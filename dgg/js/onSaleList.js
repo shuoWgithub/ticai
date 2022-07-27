@@ -5,162 +5,182 @@ $(function(){
   var length = 0
   var allList = [
     {
-      imgUrl: "./img/cover/1.png",
+      imgUrl: "./img/yangpiao/1_i.png",
       value: 10,
       max: "25万",
       name: '十倍幸运',
+      try: "1",
       dir: "0",
       id: 1
     },
     {
-      imgUrl: "./img/cover/2.png",
+      imgUrl: "./img/yangpiao/2_i.png",
       value: 20,
       max: "100万",
       name: '国宝',
+      try: "1",
       dir: "0",
       id: 2
     },
     {
-      imgUrl: "./img/cover/3.png",
+      imgUrl: "./img/yangpiao/3_i.png",
       value: 20,
       max: "100万",
       name: '好彩头',
+      try: "0",
       dir: "0",
       id: 3
     },
     {
-      imgUrl: "./img/cover/4.png",
+      imgUrl: "./img/yangpiao/4_i.png",
       value: 20,
       max: "100万",
       name: '点石成金',
+      try: "1",
       dir: "0",
       id: 4
     },
     {
-      imgUrl: "./img/cover/5.png",
+      imgUrl: "./img/yangpiao/5_i.png",
       value: 10,
       max: "25万",
       name: '中国红10元',
+      try: "0",
       dir: "0",
       id: 5
     },
     {
-      imgUrl: "./img/cover/6.png",
+      imgUrl: "./img/yangpiao/6_i.png",
       value: 20,
       max: "100万",
       name: '大熊猫',
+      try: "0",
       dir: "0",
       id: 6
     },
     {
-      imgUrl: "./img/cover/7.png",
+      imgUrl: "./img/yangpiao/7_i.png",
       value: 20,
       max: "100万",
       name: '五虎将',
+      try: "0",
       dir: "0",
       id: 7
     },
     {
-      imgUrl: "./img/cover/8.png",
+      imgUrl: "./img/yangpiao/8_i.png",
       value: 30,
       max: "100万",
       name: '大吉大利',
-      dir: "0",
+      try: "0",
+      dir: "1",
       id: 8
     },
     {
-      imgUrl: "./img/cover/9.png",
+      imgUrl: "./img/yangpiao/9_i.png",
       value: 50,
       max: "100万",
       name: '中国龙',
+      try: "0",
       dir: "0",
       id: 9
     },
     {
-      imgUrl: "./img/cover/10.png",
+      imgUrl: "./img/yangpiao/10_i.png",
       value: 20,
       max: "100万",
       name: '中国红20元',
+      try: "1",
       dir: "0",
       id: 10
     },
     {
-      imgUrl: "./img/cover/11.png",
+      imgUrl: "./img/yangpiao/11_i.png",
       value: 5,
       max: "10万",
       name: '麻辣6',
+      try: "1",
       dir: "0",
       id: 11
     },
     {
-      imgUrl: "./img/cover/12.png",
+      imgUrl: "./img/yangpiao/12_i.png",
       value: 10,
       max: "100万",
       name: '锦鲤10元',
+      try: "1",
       dir: "0",
       id: 12
     },
     {
-      imgUrl: "./img/cover/13.png",
+      imgUrl: "./img/yangpiao/13_i.png",
       value: 2,
       max: "1.5万",
       name: '太空寻宝',
+      try: "0",
       dir: "1",
       id: 13
     },
     {
-      imgUrl: "./img/cover/14.png",
+      imgUrl: "./img/yangpiao/14_i.png",
       value: 10,
       max: "25万",
       name: '绿翡翠9',
+      try: "0",
       dir: "0",
       id: 14
     },
     {
-      imgUrl: "./img/cover/15.png",
+      imgUrl: "./img/yangpiao/15_i.png",
       value: 5,
       max: "10万",
       name: '中国红5元',
+      try: "0",
       dir: "0",
       id: 15
     },
     {
-      imgUrl: "./img/cover/16.png",
+      imgUrl: "./img/yangpiao/16_i.png",
       value: 20,
       max: "100万",
       name: '7',
+      try: "0",
       dir: "0",
       id: 16
     },
     {
-      imgUrl: "./img/cover/17.png",
+      imgUrl: "./img/yangpiao/17_i.png",
       value: 10,
       max: "30万",
       name: '出7致胜',
+      try: "0",
       dir: "0",
       id: 17
     },
     {
-      imgUrl: "./img/cover/18.png",
+      imgUrl: "./img/yangpiao/18_i.png",
       value: 10,
       max: "25万",
       name: '通吃',
+      try: "0",
       dir: "0",
       id: 18
     },
     {
-      imgUrl: "./img/cover/19.png",
+      imgUrl: "./img/yangpiao/19_i.png",
       value: 10,
       max: "88万",
       name: '红包来啦',
+      try: "0",
       dir: "0",
       id: 19
     },
     {
-      imgUrl: "./img/cover/20.png",
+      imgUrl: "./img/yangpiao/20_i.png",
       value: 20,
       max: "100万",
       name: '爱赢爱冰雪',
+      try: "0",
       dir: "0",
       id: 20
     },
@@ -186,10 +206,14 @@ $(function(){
   // 点击票
   $('.sale-item').click(function (e) {
     var id = e.currentTarget.dataset.id || 1
-    var dir = e.currentTarget.dataset.dir || 1
+    var dir = e.currentTarget.dataset.dir || 0
+    var istry = e.currentTarget.dataset.try || 0
     var url = './onSaleItem_colum.shtml'
     if (dir == 1) {
       url = './onSaleItem_row.shtml'
+    }
+    if(istry == 1){
+      url = './dggTryPlay.shtml'
     }
     window.location.href = url + '?id=' + id
   })
@@ -283,7 +307,7 @@ $(function(){
       var array = renderList[curPage];
       for (var j = 0; j < array.length; j++) {
         $(a).append(
-          '<div class="sale-item" data-id="' + array[j].id + '"data-dir="' + array[j].dir + '">' +
+          '<div class="sale-item" data-id="' + array[j].id + '" data-dir="' + array[j].dir + '" data-try="'+ array[j].try+'">' +
             '<div class="sale-item-img" style="background: url(' +
             array[j].imgUrl +
             ') no-repeat;"></div>' +

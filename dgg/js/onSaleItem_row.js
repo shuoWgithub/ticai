@@ -241,65 +241,12 @@ var arr = {
 }
 
 var result = arr[id]
-console.log(result)
-
-var result1 = {
-    dggName: "国宝招财，公益有爱1",
-    dggFrontImg: "./img/test/colum1.png",
-    dggBackImg: "./img/test/colum2.png",
-    dggDetail: {
-      name: "国宝",
-      faceValue: 20,
-      ticketNumber: 3,
-      maxAward: 100000,
-      winningChance: 8,
-      playIntroduce: "刮中奖符号",
-      playRule: "刮开覆盖膜如果出现“国宝”标志即中该标志下方所示的金额；如果出现“顶刮呱“标志即中得该标志下放所示金额的5倍。中奖奖金兼中兼得。",
-      setting: [
-        {
-          level: 1,
-          money: 1000000
-        },
-        {
-          level: 2,
-          money: 1000000
-        },
-        {
-          level: 3,
-          money: 1000000
-        },
-        {
-          level: 4,
-          money: 1000000
-        },
-        {
-          level: 5,
-          money: 1000000
-        },
-        {
-          level: 6,
-          money: 1000000
-        },
-        {
-          level: 7,
-          money: 1000000
-        },
-        {
-          level: 8,
-          money: 1000000
-        },
-        {
-          level: 9,
-          money: 1000000
-        },
-      ]
-    }
-  }
-
+result.dggFrontImg = "./img/yangpiao/" + id +"_c.png"
+result.dggBackImg ="./img/yangpiao/" + id +"_b.png"
 
 $('.left-content1 .title').html(result.name)
-// $('.front').html('<img src="' + result.dggFrontImg + '"alt="">')
-// $('.back').html('<img src="' + result.dggBackImg + '"alt="">')
+$('.front').html('<img src="' + result.dggFrontImg + '"alt="">')
+$('.back').html('<img src="' + result.dggBackImg + '"alt="">')
 if(result.subname) {
     $('.right-content1 .name').html(result.subname || '顶呱刮')
 if (result.faceValue) {

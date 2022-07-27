@@ -241,9 +241,8 @@ var arr = {
 }
 
 var result = arr[id]
-// TODO
-result.dggFrontImg = "./img/test/colum1.png"
-result.dggBackImg = "./img/test/colum2.png"
+result.dggFrontImg = "./img/yangpiao/" + id +"_c.png"
+result.dggBackImg ="./img/yangpiao/" + id +"_b.png"
 
 $('.left-content1 .title').html(result.name)
 $('.front').html('<img src="' + result.dggFrontImg + '"alt="">')
