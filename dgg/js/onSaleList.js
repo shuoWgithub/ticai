@@ -217,24 +217,6 @@ $(function(){
     }
     window.location.href = url + '?id=' + id
   })
-  // 点击切页
-  $('.number').click(function () {
-    $(this).addClass("active");
-    $(this).siblings("li").removeClass("active");
-    if ($(this).text() == '...') {
-      return
-    } else if ($(this).text() == "上一页") {
-      curPage = curPage - 1;      
-    } else if ($(this).text() == "下一页") {
-      curPage = curPage + 1;
-    } else  {
-      curPage = $(this).text() - 1;
-    }
-    $("#list").empty();
-    showCurList();
-    pageNation(length);
-  })
-
 
   // 筛选
   function filterArray(list, value) {
@@ -295,6 +277,24 @@ $(function(){
     
     pageHtml += "</ul>";
     $("#mPage").html(pageHtml);
+
+    // 点击切页
+    $('.number').click(function () {
+      $(this).addClass("active");
+      $(this).siblings("li").removeClass("active");
+      if ($(this).text() == '...') {
+        return
+      } else if ($(this).text() == "上一页") {
+        curPage = curPage - 1;      
+      } else if ($(this).text() == "下一页") {
+        curPage = curPage + 1;
+      } else  {
+        curPage = $(this).text() - 1;
+      }
+      $("#list").empty();
+      showCurList();
+      pageNation(length);
+    })
   }
 
   function showCurList() {
